@@ -1,7 +1,19 @@
+# Python cache files
 __pycache__/
-*.py[cod]
-.pytest_cache/
-*.egg-info/
-.env
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
 .venv/
 venv/
+env/
+ENV/
+
+# OS and IDE configuration files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Private security credentials for Firebase database
+*credentials*.json
