@@ -18,6 +18,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+logger = logging.getLogger("smrithi.main")
 
 MOCK_PATIENTS_DB = {
     "patient123": {
