@@ -1,19 +1,24 @@
-# Python cache files
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Environments
-.venv/
+﻿# Python Virtual Environments
 venv/
+.venv/
 env/
-ENV/
 
-# OS and IDE configuration files
+# Byte-compiled / optimized / cached files
+__pycache__/
+*.py[cod]
+*.class
+
+# IDE and Editor configurations
 .vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables and sensitive credentials
+.env
+credentials.json
+firebase_key.json
+
+# OS specific files
 .DS_Store
 Thumbs.db
-
-# Private security credentials for Firebase database
-*credentials*.json
